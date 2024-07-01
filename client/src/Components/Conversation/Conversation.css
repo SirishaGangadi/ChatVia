@@ -1,0 +1,22 @@
+.conversation-profile-img{
+    img{
+        width: 70px;
+        border-radius: 50%;
+    }
+}
+.conversation-profile{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.conversation-profile-name{
+    font-size: 25px;
+    font-weight: 500;
+}
+.conversation-profile-message{
+    font-size: 13px;
+    font-weight: 500;
+    color: grey;
+}

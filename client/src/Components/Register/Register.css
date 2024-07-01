@@ -1,0 +1,107 @@
+.chatvia-register-form input{
+
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    width: 370px;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.chatvia-register-form input:focus-visible {
+    outline: 1px solid #7269ef;
+}
+
+.chatvia-register-form {
+    background-color: #fff;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.chatvia-register-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatvia-register-form button {
+    border: none;
+    width: 100%;
+    padding: 7px 0px;
+    margin-top:20px ;
+    border-radius: 5px;
+    background-color: #7269ef;
+    color: white;
+}
+
+.chatvia-register-form label{
+    margin-bottom: 5px;
+    font-weight:500;
+    font-size: 12px;
+}
+.chatvia-register-form input::placeholder{
+    font-size: 13px;
+   
+}
+.chatvia-registeration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-group-text{
+    padding: 14px;
+    border: 1px solid #f0f0f0;
+}
+.chatvia-logo img {
+    width: 150px;
+    margin-bottom:40px ;
+    margin-top: 100px;
+}
+.chatvia-register-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chatvia-register-header div:nth-child(1){
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #343a40;
+}
+
+.chatvia-register-header div:nth-child(2){
+color: #7a7f9a;
+font-weight: 500;
+margin-bottom: 30px;
+}
+body{
+    background-color: #f4f4f9;
+    /* background-color: #f5f9fb; */
+}
+
+.register-terms{
+    color: #7a7f9a;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.register-terms span{
+    color: #7269ef;
+    margin-top: 20px; 
+}
+.register-signin{
+    font-weight: 400;
+    color:#7a7f9a ;
+}
+.forgotpassword{
+    font-size: 12px;
+    font-weight: 500;
+    color:#7a7f9a ;
+}

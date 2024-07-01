@@ -1,0 +1,31 @@
+.otp-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .otp-input {
+    width: 40px !important;
+    height: 40px !important;
+    text-align: center !important;
+    font-size: 18px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 5px !important;
+    font-weight: 500;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #7269EF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #5a53d4;
+  }
+
+  

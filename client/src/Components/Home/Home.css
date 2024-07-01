@@ -1,0 +1,690 @@
+
+.nav-link{
+color: grey;
+}
+.chatvia-home-logo{
+    padding: 20px ;
+    background-color: white;
+    width: 97px;
+    
+}
+.chatvia-home-logo svg{
+    font-size: 40px;
+    color: #7269ef;
+    
+}
+.home-tab-list{
+    background-color: white;
+    gap: 30px;
+    padding: 10px 5px;
+    height: 100vh;
+   
+}
+profile_div1{
+    position: relative ;
+}
+
+.profile_div2{
+    position: absolute;
+    /* display: none; */
+    top: -150px;
+    background-color: #f2f3f5;
+    width: 150px;
+    z-index: 100;
+    left: 30px;
+    box-shadow: 2px 2px 3px  rgb(218, 215, 215),2px -2px 3px  rgb(221, 220, 220),
+    -2px 2px 3px  rgb(218, 216, 216),-2px -2px 3px  rgb(230, 228, 228)
+  
+}
+.profile_div2 ul{
+    list-style-type: none;
+}
+.profile_div2 ul li{
+    display: block;
+    color: rgb(77, 74, 74);
+    margin-left: -40px;
+    padding: 5px
+   
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    padding: 0px;
+    margin: 0px;
+    background-color: white ;
+    color: #7269ef;
+}
+.home-tab-list button svg{
+    font-size: 25px;
+}
+.accordion-button {
+    padding: 0.5rem 0.75rem ;
+}
+
+
+.dashnoardchats1222 {
+    width: 360px;
+    height: 405px;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    /* padding-bottom: 150px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chatviaimgwidth{
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.riuserline{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #7A7F9A;
+}
+.rimessage3width{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #7A7F9A;  
+}
+
+.globalline{
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 40px;
+    color: #7A7F9A;   
+}
+
+.moonline{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #7A7F9A;   
+}
+
+.chatviaprofilewidth img{
+    width: 35px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+ 
+.dashboardmessages{
+  margin-left: 20px;
+  margin-top: 30px;
+  
+}
+.dashnoardchats .d-flex{
+margin-bottom: 10px;
+}
+.dashnoardchats{
+    width: 360px;
+/*    
+    
+    padding-bottom: px; */
+}
+
+.patrickbackground{
+    /* background-color: #E6EBF5; */
+    margin-left: 15px;
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    position: relative;
+   
+}
+.patrickmargintop{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.person1width img{
+   width: 30px;
+   border-radius:30px;
+   left: 133px;
+   height: 35px;
+   top: 125px;
+   position: absolute;
+}
+.person1width1 img{
+   width: 35px;
+   border-radius: 50px;
+   left:215px;
+   top: 125px;
+   position: absolute;
+}
+.person1width2 img{
+   width: 35px;
+   border-radius: 50px;
+   left: 300px;
+   top: 125px;
+   position: absolute;
+}
+.person1width3 img{
+   width: 35px;
+   border-radius: 50px;
+   left: 390px;
+   top: 125px;
+   position: absolute;
+}
+.dashboardrecent{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.person1chatlist {
+    width: 35px;
+   border-radius: 50px;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+.person1chatheading6{
+     font-size: 16px;
+    margin-left: 15px;
+   margin-top: 15px;
+   font-weight: 500;
+}
+.person1chatparagraph{
+    margin-left: 15px;
+   font-size: 13px;
+   color: #7a7f9a;
+
+}
+.person1timing{
+    margin-top: 15px;
+    margin-left: 85px;
+    font-size: 12px;
+}
+.indexdashboard{
+    
+    height: 400px;
+    overflow: scroll;
+    overflow-x:hidden;
+    scrollbar-width: thin;
+}
+.myprofileh5margintop{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.chatviamyprofileimage{
+    width: 90px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.chatviaprofilename{
+    margin-left: 133px;
+    margin-top: 20px;
+}
+.profilechatdisplayflex{
+    display: flex;
+}
+.recordcirclewidth{
+    color: green;
+    font-size: 7px;
+    margin-left: 140px;
+    margin-top: 7px;
+}
+.activeleft{
+    margin-left: 5px;
+    color: #6b85ba;
+}
+.ifseveral{
+    color: #7A7F9A;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+/* .dashboardabout{
+    height: 40px;
+    background-color: white;
+   
+    box-shadow: 2px 2px 3px rgb(218, 212, 212)  ;
+} */
+.userlineabout{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.downspan{
+    margin-left: 200px;
+}
+.downspanattached{
+    margin-left: 145px;
+}
+
+.dashboardaboutmargintop{
+    height: 40px;
+    background-color: white;
+    /* border: 1px solid rgb(162, 156, 156); */
+    box-shadow: 2px 2px 3px rgb(218, 212, 212)  ;
+    margin-top: 20px;
+    margin-bottom: 300px;
+}
+
+.dashboardgroupmessages{
+    width: 360px;
+    background-color:rgb(245,247,251);
+   
+    padding-top: 30px;
+}
+/* .groupdflexmargintop{
+    margin-top: 30px;
+} */
+.grouomessagemarginleft{
+    margin-left: 20px;
+}
+.messagesgroupline{
+    margin-left: 200px;
+    font-size: 20px;
+    color: #7A7F9A;
+}
+.groupsgeneralg{
+    margin-top: 30px;
+}
+.groupsgcircle{
+    border: 1px solid rgb(227,225,252);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color:rgb(227,225,252) ;
+    color: rgb(158,120,239);
+    padding: 2px 10px 10px 8px;
+    margin-left:40px;
+}
+.reporting23{
+    border: 1px solid rgb(244,215,226);
+    width: 35px;
+    height: 18px;
+    border-radius: 30px;
+    padding-top:-1px;
+    padding-left: 5px;
+    padding-bottom:0px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 110px;
+    background-color: rgb(244,215,226);
+    color: rgb(239,71,111);
+}
+.designer55{
+    border: 1px solid rgb(244,215,226);
+    width: 35px;
+    height: 18px;
+    border-radius: 30px;
+    padding-top:-1px;
+    padding-left: 5px;
+    padding-bottom:0px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 115px;
+    background-color: rgb(244,215,226);
+    color: rgb(239,71,111);
+}
+.developersnew{
+    border: 1px solid rgb(244,215,226);
+    width: 35px;
+    height: 18px;
+    border-radius: 30px;
+    padding-top:-1px;
+    padding-left: 5px;
+    padding-bottom:0px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 100px;
+    background-color: rgb(244,215,226);
+    color: rgb(239,71,111);
+}
+.snacksnew{
+    border: 1px solid rgb(244,215,226);
+    width: 35px;
+    height: 18px;
+    border-radius: 30px;
+    padding-top:-1px;
+    padding-left: 5px;
+    padding-bottom:0px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 130px;
+    background-color: rgb(244,215,226);
+    color: rgb(239,71,111);   
+}
+/* .contactsbackground{
+    width: 360px;
+    box-shadow: 2px 2px 3px rgb(218, 212, 212) ,2px -2px 3px rgb(248, 243, 243) ,-2px 2px 3px rgb(248, 243, 243)  ,-2px -2px 3px rgb(248, 243, 243)    ;
+    border: 1px solid rgb(231, 231, 238);   
+} */
+.contactmargintopcontact{
+    margin-top: 30px;
+
+}
+.contactsnameh5{
+    margin-left: 20px;
+}
+.contactueraddline{
+    margin-left: 200px;
+    font-size: 17px;
+    color: #7A7F9A;
+}
+.contactsAlist{
+    margin-top: 50px;
+    margin-left: 30px;
+    color: rgb(133, 102, 200);
+}
+.contactalbert{
+    margin-top: 20px;
+    margin-left: 33px;
+    font-weight: 500;
+}
+.contactalbertmore2fill{
+    margin-top: 20px;
+    
+    color: #7A7F9A;
+}
+.contactalbertmore2fill1{
+    margin-top: 20px;
+    margin-left: 183px;
+    color: #7A7F9A;
+}
+.contactalbertmore2fill2{
+    margin-top: 20px;
+    margin-left: 180px;
+    color: #7A7F9A;
+}
+.contactdanielmore2fill{
+    margin-top: 20px;
+    margin-left: 189px;
+    color: #7A7F9A;
+}
+.contactdaniel2More2fill{
+    margin-top: 20px;
+    margin-left: 182px;
+    color: #7A7F9A;
+     
+}
+.settingsbackgroundtotal{
+    width: 360px;
+    
+    
+}
+.settingsmargintop{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.availablesettings{
+    margin-left: 130px;
+}
+.settingsbackgroundsecond{
+    width: 360px;
+   
+    padding-bottom: 250px; 
+    overflow-x: hidden;
+    height: 400px;
+}
+
+.settingspersonalinfo{
+    height: 40px;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgb(248, 243, 243) ,2px -2px 3px rgb(248, 243, 243) ,-2px 2px 3px rgb(248, 243, 243)  ,-2px -2px 3px rgb(248, 243, 243)    ;
+    margin-top: 15px;  
+    width: 324px;
+    margin-left: 20px; 
+}
+.downarrow1{
+    margin-left: 160px;
+}
+.downarrow2{
+    margin-left: 205px;
+}
+.downarrow4{
+    margin-left: 225px;
+}
+.downarrow3{
+    margin-left: 200px;
+}
+
+.accp{
+    color: #7A7F9A;
+    font-size: 16px;
+}
+.acch{
+    margin-top: -10px;
+    font-size: 15px;
+    color: black;
+}
+
+.file{
+    background-color: #E3E1FC;
+    color: #7269EF;
+    padding: 13px;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.darkmode{
+    background-color: black;
+    color: white;
+}
+
+
+.flex5{
+    display: flex;
+}
+
+.acch2{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.accp2{
+    color: #7A7F9A;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: -8px;
+}
+
+.download{
+    margin-left: 70px;
+    margin-top: 20px;
+    color: #7A7F9A;
+}
+
+.download2{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #7A7F9A;
+}
+
+.download3{
+    margin-left: 75px;
+    margin-top: 20px;
+    color: #7A7F9A;
+}
+
+.download4{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #7A7F9A;
+}
+
+.download5{
+    margin-left: 73px;
+    margin-top: 20px;
+    color: #7A7F9A;
+}
+
+.download6{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #7A7F9A;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #7269EF ;
+    background-color: white 
+}
+.create-new-chat {
+    background-color: #7269EF;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 11px;
+
+}
+
+.create-new-chat:active {
+    background-color: white;
+    border: 1px solid #7269EF;
+    color: #7269EF;
+}
+
+.profile_div1{
+    position: relative;
+}
+.profile_div2{
+    position: absolute;
+    display: none;
+    top: -150px;
+    background-color: #f2f3f5;
+    width: 150px;
+    z-index: 100;
+    height: 160px;
+    left: 30px;
+    box-shadow: 2px 2px 3px  rgb(218, 215, 215),2px -2px 3px  rgb(221, 220, 220),
+    -2px 2px 3px  rgb(218, 216, 216),-2px -2px 3px  rgb(230, 228, 228);
+  
+}
+.light {
+    background-color: white;
+    color: black;
+  }
+  .log{
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+}
+  .dark {
+    background-color: black;
+    color: white;
+  }
+.profile_div2 ul{
+    list-style-type: none;
+}
+.profile_div2 ul li{
+    display: block;
+    color: rgb(77, 74, 74);
+    margin-left: -40px;
+    padding: 5px;  
+   
+}
+.profile_div5{
+    position: relative;
+}
+.profile_div6{
+    position: absolute;
+    display: none;
+    top: -185px;
+    background-color: #f2f3f5;
+    width: 170px;
+    z-index: 100;
+    left: 30px;
+    box-shadow: 2px 2px 3px  rgb(218, 215, 215),2px -2px 3px  rgb(221, 220, 220),
+    -2px 2px 3px  rgb(218, 216, 216),-2px -2px 3px  rgb(230, 228, 228);
+  
+}
+.engli{
+    width: 20px;
+ margin-left: -15px;
+   
+}
+.profile_div6 ul{
+    list-style-type: none;
+  
+}
+.profile_div6 ul li{
+    display: block;
+    color: rgb(77, 74, 74);
+    margin-left: -40px;
+    padding: 5px;  
+   
+}
+.profile_div5:hover .profile_div6{
+    display: block;
+}
+.textmar{
+    width: 150px;
+    margin-left: -32px;
+    color: rgb(109, 110, 110);
+}
+.textmar1{
+    width: 152px;
+    margin-left: -25px;
+    color: rgb(109, 110, 110);
+    margin-top: 10px;
+    margin-bottom:7px ;
+}
+.profile_div1:hover .profile_div2{
+    display: block;
+}
+.fileline{
+    margin-left: 50px;
+    color: #666;
+}
+.fileline1{
+    margin-left: 45px;
+    color: #666;
+}
+.online{
+    background-color: rgb(77, 239, 77);
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: -36px;
+    margin-top: 43px;
+    border: 2px solid white;
+    
+}
+.fileline2{
+    margin-left: 49px;
+    color: #666;
+}
+
+/* .contactthreedots:hover .create-new-chat {
+    visibility: visible;
+    opacity: 1;
+} */
+/* .chatbox-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500; 
+} */
+
+
+
+  /* Add your dark mode styles here */
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  
+ 
+  

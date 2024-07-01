@@ -1,0 +1,197 @@
+.chatbox-profile-image{
+    img{
+        width: 50px;
+        border-radius: 50%;
+    }
+    
+
+}
+.chats-right-side{
+    background-color: white;
+}
+.chatbox-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 5px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+    
+}
+.chatbox-profile-name{
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+
+
+
+.chatbox-message-time span:nth-child(1) svg {
+    font-size: 15px;
+    margin-left: 2px;
+    
+}
+.chatbox-message-container{
+    padding: 0px 40px;
+}
+
+
+.chatbox-header-img-name{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.chatbox-header-icons{
+    display: flex;
+    gap: 30px;
+}
+.chatbox-header-icon svg{
+    font-size: 20px;
+}
+.chatbox-message-container {
+    height: 72vh;
+    overflow-y: auto;
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+}
+
+/* Custom scrollbar styles for WebKit browsers (Chrome, Safari) */
+.chatbox-message-container::-webkit-scrollbar {
+    width: 12px; /* Width of the vertical scrollbar */
+}
+
+.chatbox-message-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */ 
+}
+
+.chatbox-message-container::-webkit-scrollbar-thumb {
+    background-color: #7269ef; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Round edges of the scrollbar thumb */
+    border: 3px solid #f1f1f1; /* Padding around the thumb */
+}
+
+/* Custom scrollbar styles for Firefox */
+.chatbox-message-container {
+    scrollbar-width: thin; /* Make the scrollbar thinner */
+    scrollbar-color: grey #f1f1f1; /* Color of the scrollbar thumb and track */
+}
+.ownmessage.chatbox-message-time{
+    color: #7a7f9a;
+    font-size: 10px;
+    
+}
+.ownmessage.chatbox-message-time{
+    
+    color: hsla(0, 0%, 100%, .5);
+    font-size: 12px !important;
+    margin-top: 4px;
+    text-align: right;
+}
+
+
+.chatbox-message-container{
+    padding: 0px 30px;
+}
+
+/* Message styling */
+.ownmessage, .receivermessage {
+    max-width: 70%;
+    margin: 10px;
+    padding: 10px;
+    
+    
+    border-radius: 10px;
+    position: relative;
+}
+
+.ownmessage {
+    background-color: #f5f7fb;
+    float: right;
+    clear: both;
+    align-self: flex-end;
+    border-radius: 19px 22px 0 33px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7269ef;
+}
+.ownmessage span:nth-child(1){
+    float: left;
+}
+
+.receivermessage {
+    background-color: #7269ef;
+    color: #fff;
+    float: left;
+    border-radius: 28px 27px 33px 0;
+    clear: both;
+    align-self: flex-start;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Time styling */
+
+.receivermessage .chatbox-message-time {
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, .5);
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.chatbox-message-time span:nth-child(1){
+    svg{
+        font-size: 10px;
+    }
+}
+.ownmessage .chatbox-message-time {
+    font-size: 10px;
+    color: #7a7f9a;
+    float: left;
+    margin-top: 21px;
+    margin-left: 12px;
+    
+}
+
+.chatbox-message-time span {
+    margin-right: 5px;
+}
+
+.chat-sender{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0px 0px 20px #f0f0f0;
+
+
+}
+.chat-sender svg{
+    font-size:20px ;
+}
+.send-button{
+    
+    padding: 10px 20px;
+    background-color: #7269ef;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px!important;
+}
+.chat_box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.message-image img{
+    border-radius: 5px;
+    
+}
+.message-image{
+    padding: 10px;
+}
+
+
+
+
